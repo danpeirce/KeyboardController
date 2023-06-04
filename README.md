@@ -13,13 +13,6 @@ Note there are multiple examples in the library of different types of USB host c
 
 ## Trinket M0 Wiring
 
-::Voltage Warnings::
-
-* The IO connections of the Trinket M0 operate at 3.3 volts and are __not__
-  tolerant of higher voltages.
-* It is permissible and necessary to supply the board with 5 volts for the board and for the target keyboard when the
-  keyboard is to be attached. This 5 volt source should be removed when programming the board via the USB connector.
-  
 To connect a keyboard to the Trinket M0 a OTG adapter cable is required.   I used the following
 
 * [one vendor Digikey.ca](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/1099/5875794)
@@ -30,6 +23,13 @@ end use for this project would be to add a keyboard to some MCU that is not acti
 would connect to the Rx pin of a UART on the other device.
 
 ![](img/wiringM0.png)   
+
+### Voltage Warnings
+
+* The IO connections of the Trinket M0 operate at 3.3 volts and are __not__
+  tolerant of higher voltages.
+* It is permissible and necessary to supply the board with 5 volts for the board and for 
+  the target keyboard when the keyboard is to be attached. This 5 volt source should be removed when programming the board via the USB connector.
   
 ### Reference on Wiring
 
