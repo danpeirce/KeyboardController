@@ -13,7 +13,7 @@ Note there are multiple examples in the library of different types of USB host c
 
 ## Trinket M0 Wiring
 
-** Voltage Warnings **
+::Voltage Warnings::
 
 * The IO connections of the Trinket M0 operate at 3.3 volts and are __not__
   tolerant of higher voltages.
