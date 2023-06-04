@@ -49,7 +49,7 @@ key which in combination with other keys prints "L-Cmd " followed by the relevan
 
 On power up and keyboard attachment a number of messages are sent. This may also change in future versions.
 
-![](attach_keyboard.png)
+![](img/attach_keyboard.png)
 
 ## Terminal Options
 
