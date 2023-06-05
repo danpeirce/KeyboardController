@@ -1,7 +1,7 @@
 # Keyboard Controller
 
 The Trinket M0 has a USB port that can be configured as an On-The-Go port (OTG). This example code
-operates hosts a USB keyboard.
+hosts a USB keyboard.
 
 ## Required Library
 
@@ -38,12 +38,12 @@ See
 
 ## Code Changes from Original Example 
 
-The original example code was very verbose. It displayed strings for each key press and key release. It also displayed scan codes in addition to the 
-original printable character. That was useful for indicating the information the Trinket M0 was receiving but not what I was looking for.
-The code has been changed by commenting out statements for much of the verbose information. For this project I'm interested in the printable 
-characters and not the key releases. Many non-printable keys have a NULL for the character. Those were arrow keys and function keys. I changed the code
-so that NULL characters would be followed by the scan codes. Everything else would just have the ASCII code. The one exception was the window
-key which in combination with other keys prints "L-Cmd " followed by the relevant ASCII code. I'm considering changes to this in future versions.
+This unmodified branch does not have code changes from the original. It is included here so that one can easily compare changes I have made to the 
+original code.
+
+The original example code was very verbose. It displayed strings for each key press and key release. It also displays scan codes in addition to the 
+original printable character. That is useful for indicating the information the Trinket M0 was receiving. In other branches I make changes so that the 
+output will be less verbose and more what I am looking for.
 
 ## Messages on Power Up
 
